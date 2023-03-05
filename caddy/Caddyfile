@@ -1,0 +1,8 @@
+{
+    local_certs
+    debug
+}
+
+snipeit.local {
+    reverse_proxy snipeit:80
+}
